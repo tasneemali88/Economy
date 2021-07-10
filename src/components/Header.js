@@ -1,8 +1,11 @@
 import React from 'react';
-
-function Header     (){
+import back from "../images/back.jpg";
+function Header(){
     return(
-        <h1>Welcome to Economy Section!</h1>
+        <div className="header">
+            <img className="img1" src={back} alt="" />
+        </div>
     );
 };
 export default Header;
+

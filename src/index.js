@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Eco from './components/Eco';
-ReactDOM.render(<Eco/>,document.getElementById('root'));
+import Economy from './components/Economy';
+ReactDOM.render(<Economy/>,document.getElementById('root'));
+
+
 
 
